@@ -26,7 +26,7 @@ function states_exercise_menu() {
 function states_exercise_exhaustive_states($form, &$form_state) {
 
   $states['checkbox'] = array('enabled', 'disabled', 'visible', 'invisible', 'checked', 'unchecked', 'touched', 'untouched', 'expanded', 'collapsed');
-  $states['textfield'] = array('enabled', 'disabled', 'visible', 'invisible', 'checked', 'unchecked', 'visible', 'invisible', 'filled', 'empty', 'expanded', 'collapsed', 'required', 'optional', 'touched', 'untouched', 'readwrite', 'readonly');
+  $states['textfield'] = array('enabled', 'disabled', 'visible', 'invisible', 'checked', 'unchecked', 'filled', 'empty', 'expanded', 'collapsed', 'required', 'optional', 'touched', 'untouched', 'readwrite', 'readonly');
   $states['fieldset'] = array('expanded', 'collapsed', 'visible', 'invisible');
   // Must also handle 'value'
 
